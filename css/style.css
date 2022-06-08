@@ -172,6 +172,7 @@ button i {
     width: 25%;
     height: auto;
     color: #fff;
+    font-size: 1rem;
 }
 
 #mainNav .navbar-brand span {
