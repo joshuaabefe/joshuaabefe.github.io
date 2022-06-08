@@ -1,0 +1,395 @@
+@import url(../css/font.css);
+
+html {
+    scroll-padding-top: 5.5rem;
+}
+
+/* preloader */
+#preloader {
+    overflow: hidden;
+    background-color: #f4db7d;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 99999;
+    color: #fff;
+}
+  
+#preloader .jumper {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#preloader .jumper > div {
+    background-color: #0d1218;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: absolute;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: jumper 1s 0s linear infinite;
+    animation: jumper 1s 0s linear infinite;
+}
+
+#preloader .jumper > div:nth-child(2) {
+    -webkit-animation-delay: 0.33333s;
+    animation-delay: 0.33333s;
+}
+
+#preloader .jumper > div:nth-child(3) {
+    -webkit-animation-delay: 0.66666s;
+    animation-delay: 0.66666s;
+}
+
+@-webkit-keyframes jumper {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes jumper {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* fonts */
+.Montserrat {
+  font-family: Montserrat,Montserrat-Medium;
+}
+
+.Oswald {
+  font-family: Oswald,Oswald-VariableFont_wght;
+}
+
+/* fonts color */
+.f-color {
+    color: #9daaf2;
+}
+
+/* background color */
+.bgcolor {
+    background-color: #0d1218;
+    color: #fff;
+}
+
+.bgcolor2 {
+    background-color: #141b25;
+    color: #fff;
+}
+
+/* masthead */
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.747) 0%, rgba(13, 18, 24, 0.637) 100%), url("../assets/img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: #fff;
+}
+
+header.masthead .header-text-container h2 {
+    font-size: 2.25rem;
+}
+
+hr.divider {
+    max-width: 3.25rem;
+    margin: 1rem auto;
+    border-top: 4px solid #ff6a3d;
+    opacity: 1;
+}
+ 
+header.masthead .header-text-container h3 span{
+    color: #f4db7d;
+}
+
+.list-inline .list-inline-item .social {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    transition: all 0.2s ease;
+}
+
+.list-inline .list-inline-item .social:hover {
+    color: #ff6a3d;
+}
+
+  
+/* navigation */
+button.navbar-toggler{
+    border: 0.125rem solid #9daaf2;
+    background-color: transparent;
+    border-color: #9daaf2;
+}
+
+button i {
+    color: #9daaf2;
+    font-size: 1.5rem;
+}
+
+#mainNav {
+    border-top: 10px solid #9daaf2;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #080b0ed0;
+    transition: background-color 0.2s ease;
+}
+
+#mainNav .navbar-brand {
+    width: 25%;
+    height: auto;
+    color: #fff;
+}
+
+#mainNav .navbar-brand span {
+    color: #ff6a3d;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+    transition: all 0.2s ease;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, 
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #f4db7d;
+}
+
+
+/* basic class for all containers */
+.basic {
+    padding: 4.5rem 0 3.5rem;
+}
+
+/* basic class for main tag*/
+.basic .image-container-img {
+    width: 100%;
+    height: 20rem;
+    background: url(../assets/img/images\ \(2\).jpeg) center/cover no-repeat;
+} 
+
+.basic .text-container {
+    padding: 20px 0;
+}
+
+.basic p span{
+    color: #f4db7d;
+}
+
+.basic .hi {
+    font-size: 1.375rem;
+}
+
+.basic h2 {
+	margin-bottom: 1.375rem;
+}
+
+.basic .main-links strong { 
+    margin: 0 0.35rem 0 0;
+}
+
+.basic .main-links a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+.basic .main-links a:hover { 
+    color: #f4db7d;
+}
+
+.basic .text-container .btn-discover {
+    padding: 0.75rem 2rem 0.75rem;
+	border: 0.125rem solid #9daaf2;
+    color: #0d1218;
+    font-size: 0.95rem;
+    background-color: #9daaf2;
+    border-color: #9daaf2;
+}
+
+.basic .text-container .btn-discover:hover {
+    color: #9daaf2;
+    background-color: transparent;
+    border-color: #9daaf2;
+}
+
+/* basic class for first section tag*/
+.section-title {
+    margin-bottom: 1.5rem;
+}
+
+.section-title h3 {
+    font-size: 1.7rem;
+}
+
+.basic .card {
+    width: 100%;
+    height: 18rem;
+    color: #0d1218;
+    margin: 0 0 1.5rem 0;
+    transition: .5s ease;
+}
+
+.basic .card:hover {
+    background-color: #0d1218;
+    color: white;
+}
+
+.basic .card .section-icon {
+    margin: 0;
+    color: #0d1218;
+    font-size: 2.75rem;
+    padding: 4%;
+}
+
+.basic .card:hover .section-icon {
+    color: white;
+}
+
+
+/* basic class for second section tag -- card-tag */
+.basic .image-container-img1 {
+    width: 100%;
+    height: 18rem;
+    background: url(../assets/img/calculator.png) center/cover no-repeat;
+} 
+
+.basic .image-container-img2 {
+    width: 100%;
+    height: 18rem;
+    background: url(../assets/img/_C__Users_joshua_Desktop_construction_index.html\(Nest\ Hub\ Max\)\ \(1\).png) center/cover no-repeat;
+} 
+
+.basic .image-container-img3 {
+    width: 100%;
+    height: 18rem;
+    background: url(../assets/img/_C__Users_joshua_Desktop_rodufy_index.html\(Nest\ Hub\ Max\).png) center/cover no-repeat;
+} 
+ 
+.dark-overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: .5s ease;
+}
+
+.dark-overlay:hover {
+    opacity: 1;
+}
+
+.dark-overlay-text {
+    position: relative;
+    top: 40%;
+}
+
+  
+/* basic class for third section tag */
+.swiper-container {
+    position: relative;
+}
+
+.swiper-slide {
+    padding: 0 1rem;
+}
+
+/* basic class for fourth section tag */
+.contact-us {
+    margin: 0 0 0.75rem;
+}
+
+.contact-us img {
+    margin: 0 1rem 0 0;
+}
+
+li .contact-text a{ 
+    color: #fff;
+    text-decoration: none;
+}
+
+li .contact-text a:hover { 
+    color: #f4db7d;
+}
+
+.basic .text-container-contact {
+    padding: 20px 0;
+}
+
+.basic .second-image-container {
+    width: 100%;
+    height: 20rem;
+    background: url(../assets/img/isolated-shot-happy-black-man-yellow-clothing-types-message-downloads-new-application-smart-phone-enjoys-coffee-from-disposable-cup-has-toothy-smile-white-teeth-thick-bristle_27360.webp) center/cover no-repeat;
+} 
+
+/* footer */
+footer a{ 
+    color: #f4db7d;
+    text-decoration: none;
+}
+
+footer a:hover { 
+    color: #9daaf2;
+    text-decoration: none;
+}
+
+/* back-to-top */
+.back-to-top {
+	position: fixed;
+	right: 1.75rem;
+	bottom: 1.75rem;
+	display: none;
+}
+
+a.btn-light, a:focus.btn-light {
+    border: 0.125rem solid #9daaf2;
+    color: #0d1218;
+    background-color: #9daaf2;
+    border-color: #9daaf2;
+}
+
+a:hover.btn-light {
+	color: #9daaf2;
+    background-color: transparent;
+    border-color: #9daaf2;
+}
