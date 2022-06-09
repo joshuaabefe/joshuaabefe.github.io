@@ -37,6 +37,7 @@
     #mainNav .navbar-brand {
       width: 10%;
       height: auto;
+      font-size: 1.25rem;
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
