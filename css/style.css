@@ -162,7 +162,7 @@ button i {
 }
 
 #mainNav {
-    border-top: 10px solid #c19434;
+    border-top: 7px solid #c19434;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #080b0ed0;
     transition: background-color 0.2s ease;
