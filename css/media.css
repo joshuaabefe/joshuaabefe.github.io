@@ -19,7 +19,7 @@
     }
     
     .list-inline .list-inline-item .social {
-        color: #fff;
+        color: #f1f1ef;
         font-weight: 700;
         font-size: 1rem;
         transition: all 0.2s ease;
@@ -41,13 +41,13 @@
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
-      color: #fff;
+      color: #f1f1ef;
       padding: 0 1rem;
       transition: all 0.2s ease;
     }
 
     #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #f4db7d;
+      color: #c19434;
     }
     
     #mainNav.navbar-shrink {
@@ -56,15 +56,15 @@
     }
 
     #mainNav.navbar-shrink .navbar-brand {
-      color: #fff;
+      color: #f1f1ef;
     }
     
     #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-      color: #fff;
+      color: #f1f1ef;
     }
 
     #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-      color: #f4db7d;
+      color: #c19434;
     }
 
 
