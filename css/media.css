@@ -30,6 +30,7 @@
 @media (min-width: 992px) {
     /* main navigation */
     #mainNav {
+      border-top: 10px solid #c19434;
       box-shadow: none;
       background-color: transparent;
     }
