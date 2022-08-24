@@ -30,7 +30,6 @@
 @media (min-width: 992px) {
     /* main navigation */
     #mainNav {
-      border-top: 10px solid #c19434;
       box-shadow: none;
       background-color: transparent;
     }
@@ -38,7 +37,7 @@
     #mainNav .navbar-brand {
       width: 10%;
       height: auto;
-      font-size: 1.25rem;
+      font-size: 1.5rem;
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
