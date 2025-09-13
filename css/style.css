@@ -112,7 +112,7 @@ html {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.747) 0%, rgba(13, 18, 24, 0.637) 100%), url("../assets/img/bg-masthead.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.747) 0%, rgba(13, 18, 24, 0.637) 100%), url("../assets/img/Flat\ lay\ top\ view\ office\ desk_\ workspace\ with\ keyboard\ and\ office\ supplies.\ _\ Premium\ Photo");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -200,7 +200,7 @@ button i {
 .basic .image-container-img {
     width: 100%;
     height: 20rem;
-    background: url(../assets/img/images\ \(1\).jpeg) center/cover no-repeat;
+    background: url(../assets/img/Intense\ Gaze\ on\ Herringbone\ Pavement\ Main.png) center/cover no-repeat;
 } 
 
 .basic .text-container {
@@ -376,7 +376,7 @@ li .contact-text a:hover {
 .basic .second-image-container {
     width: 100%;
     height: 20rem;
-    background: url(../assets/img/isolated-shot-happy-black-man-yellow-clothing-types-message-downloads-new-application-smart-phone-enjoys-coffee-from-disposable-cup-has-toothy-smile-white-teeth-thick-bristle_27360.webp) center/cover no-repeat;
+    background: url(../assets/img/IMG_20200219_115625_5.jpg) center/cover no-repeat;
 } 
 
 /* footer */
